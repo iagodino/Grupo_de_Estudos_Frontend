@@ -1,0 +1,68 @@
+* {
+    color: red;
+}
+
+.helloworld {
+    color: blue;
+}
+
+#helloworld {
+    color: green;
+}
+
+body {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    height: 100vw;
+}
+.base {
+    height: 566px;
+    width: 356px;
+    background-color: grey;
+    border-radius: 10%;
+}
+.screen {
+    margin: 10px;
+    height: 100px;
+    width: 340px;
+    background-color:darkgrey;
+    border-radius: 15%;
+}
+.button {
+    margin: 10px;
+    height: 64px;
+    width: 64px;
+    background-color: aquamarine;
+    border-radius: 50%;       
+    cursor: pointer;
+}
+.interactbutton {
+    margin: 10px;
+    height: 64px;
+    width: 64px;
+    background-color: gainsboro;       
+    cursor: pointer;
+}
+.numbers {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: blue;
+}
+.operation {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: blue;
+}
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px,1fr));
+}
