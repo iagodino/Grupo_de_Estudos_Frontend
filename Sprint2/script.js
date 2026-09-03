@@ -1,19 +1,21 @@
-document.getElementById("loadData").addEventListener("click", async () => {
-    const output = document.getElementById("output");
-    output.textContent = "Loading...";
+navigator.geolocation.getCurrentPosition(function (position) {
+    var latLng = new google.maps.latLng(
+        position.coords.latitude,
+        position.coords.longitude,
+    );
 
-    try {
-        // Example public API
-        const response = await fetch("https://jsonplaceholder.typicode.com/posts/1");
-
-        // Check if request was successful
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-
-        const data = await response.json();
-        output.textContent = JSON.stringify(data, null, 2);
-    } catch (error) {
-        output.textContent = `Error: ${error.message}`;
-    }
+    var myOptions = {
+        zoom: 8,
+        center: latLng,
+        mapTypeId: google.maps.mapTypeId.TERRAIN,
+        disableDefaultUI: true,
+    };
+    var map = new google.maps.Map(
+        document.querySelector("#map_canvas"),
+        myOptions,
+    );
+    var em = document.createElement("em");
+    var para = document.querySelector("p");
+    em.textContent = "Hello there!";
+    para.appendChild(em);
 });
