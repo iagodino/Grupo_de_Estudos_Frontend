@@ -17,17 +17,17 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h2>Desenvolver Backend com algum conhecimento em Frontend
+          <h2>Desenvolver Backend 1º Desenvolvedor Frontend 2º
           </h2>
           <p>Linguagens</p>
           <p>
-            <code>Java</code> <code>JavaScript</code> <code>Go</code> <code>Python</code>
+            <code>Java</code> <code>JavaScript</code> <code>Go</code> <code>Python</code> <code>C</code>
           </p>
           <p>
             Tecnologias
           </p>
           <p>
-            <code>Spring Boot</code> <code>React</code> <code>Fast API</code>
+            <code>Spring Boot</code> <code>JPA</code> <code>Fast API</code>
           </p>
         </div>
          <p>
@@ -49,19 +49,31 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
+          <h2>Projetos</h2>
           <p>Your questions, answered</p>
           <ul>
             <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
+              <a href="https://github.com/iagodino/Grupo_de_Estudos_Frontend" target="_blank">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+                  <use href="/icons.svg#github-icon"></use>
+                </svg>
+                Estudos em Frontend
               </a>
             </li>
             <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
+              <a href="https://github.com/iagodino/Trabalho-Ver-Val" target="_blank">
+                <svg
+                  className="button-icon"
+                  role="presentation"
+                  aria-hidden="true"
+                >
+                  <use href="/icons.svg#github-icon"></use>
+                </svg>
+                Testes Unitarios em Java
               </a>
             </li>
           </ul>
@@ -70,8 +82,7 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
           </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
+          <h2>Conta</h2>
           <ul>
             <li>
               <a href="https://github.com/iagodino" target="_blank">
@@ -85,44 +96,8 @@ function App() {
                 GitHub
               </a>
             </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
           </ul>
-        </div>
+          </div>
       </section>
 
       <div className="ticks"></div>
