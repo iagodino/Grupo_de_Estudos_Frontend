@@ -28,7 +28,7 @@ function App() {
           </p>
         </div>
          <p>
-            Edit <code>src/App.tsx</code> and save to test <code>HMR</code>
+            <div style={{ fontSize: '12px' }}>icone principal feito por Maxiuchiha22</div>
           </p>
         <button
           type="button"
